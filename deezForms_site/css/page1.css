@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: #1d1d1d;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --bg: #1d1d1d;
+  --white: #fff;
+  --color-aquamarine: #54ecc4;
+  --light-blue: #87edf0;
+}
+.group-parent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 80px;
+  
+  font-size: 54.2px;
+  color: #81f3ff;
+  font-family: var(--font-montserrat);
+  align-items: center;
+  gap: 31.62px;
+}
+.row{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.elipse{
+  display: flex;
+  justify-content: center;
+  margin-top: 17%;
+}
+.end{
+  width: 42.5vw;
+  position: relative;
+  display: flex;
+  justify-self: center;
+  color: white; font-size: 16px; font-family: Raleway; font-weight: 500; line-height: 21px; word-wrap: break-word; margin-top: 5%;  
+
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.diff{
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: justify;
+  width: 42.5vw;
+  position: relative;
+  display: flex;
+
+  color: #87EDF0; font-size: 12px; font-family: Raleway; font-weight: 600; word-wrap: break-word
+}
+.button1{
+  width: 10%; height: 40px; background: #54ECC4; border-radius: 10px; border: 2px solid;
+}
+.holder{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.button1:hover{
+  background: #87EDF0;
+} 
